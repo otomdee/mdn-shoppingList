@@ -26,4 +26,6 @@ button.addEventListener("click", () => {
         ul.removeChild(document.querySelector(`#list${listNum}`));
         num--;
     })
+
+    input.focus();
 })
